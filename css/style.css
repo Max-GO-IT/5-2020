@@ -97,6 +97,10 @@ img {
   letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
@@ -122,6 +126,10 @@ img {
   height: 15px;
   fill: #757575;
   margin-right: 10px;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-address {
@@ -132,14 +140,21 @@ img {
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-e-mail {
   width: 16px;
   height: 11px;
   margin-right: 10px;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-address:hover,
-.header-address:focus {
+.header-address:hover {
   color: #2196f3;
 }
 
@@ -195,7 +210,7 @@ img {
   border: none;
   line-height: 30px;
   letter-spacing: 0.95px;
-  padding: 10px 32px; /*y x*/
+  padding: 10px 32px;
 }
 
 button:hover {
@@ -337,6 +352,10 @@ button:focus {
   margin-bottom: 24px;
   border-radius: 50%;
   margin-right: 10px;
+
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icons-item .icon {
