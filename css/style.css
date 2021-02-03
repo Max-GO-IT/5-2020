@@ -560,8 +560,12 @@ button:focus {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+.backdrop.is-hidden {
+  opacity: 0.5;
+  pointer-events: none;
+}
 .modal {
-  position: absolute;
+  position: relative;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
