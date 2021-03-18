@@ -600,15 +600,15 @@ button:focus {
   margin-bottom: 30px;
 }
 .label {
-position: absolute;
-margin-left: 42px;
-margin-top: 12px;
-width: 58px;
-height: 16px;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.01em;
-color: #757575;
+  position: absolute;
+  margin-left: 42px;
+  margin-top: 12px;
+  width: 58px;
+  height: 16px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #757575;
 }
 .modal-icon-1 {
   position: absolute;
@@ -638,6 +638,7 @@ color: #757575;
   height: 13px;
 }
 .div-textarea {
+  position: relative;
   display: block;
   height: 120px;
 }
@@ -650,8 +651,9 @@ color: #757575;
   resize: none;
 }
 .textarea-label {
-  top:0;
-  left: 0;
+  position: absolute;
+  top: 12px;
+  left: 56px;
   width: 338px;
   height: 96px;
   font-size: 14px;
@@ -659,6 +661,7 @@ color: #757575;
   letter-spacing: 0.01em;
   color: #757575;
 }
+
 .checkbox {
   margin-left: 40px;
   margin-top: 20px;
@@ -677,22 +680,22 @@ color: #757575;
   color: #2196f3;
 }
 .form-button {
-margin-top: 31px;
-margin-left: 125px;
-width: 200px;
-height: 50px;
-background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-border:none;
+  margin-top: 31px;
+  margin-left: 125px;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
 }
 .text-submit {
-width: 89px;
-height: 30px;
-font-size: 16px;
-line-height: 30px;
-letter-spacing: 0.06em;
-color: #FFFFFF;
+  width: 89px;
+  height: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
 }
 
 /*--------------------------------------------------------------*/
