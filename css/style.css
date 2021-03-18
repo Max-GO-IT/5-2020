@@ -587,6 +587,7 @@ button:focus {
 }
 
 .connection-field {
+  padding-left: 42px;
   width: 370px;
   height: 40px;
   border-radius: 4px;
@@ -661,7 +662,6 @@ button:focus {
   letter-spacing: 0.01em;
   color: #757575;
 }
-
 .checkbox {
   margin-left: 40px;
   margin-top: 20px;
@@ -672,7 +672,6 @@ button:focus {
   letter-spacing: 0.03em;
   color: #757575;
 }
-
 .connection-link {
   font-size: 12px;
   line-height: 14px;
@@ -697,7 +696,10 @@ button:focus {
   letter-spacing: 0.06em;
   color: #ffffff;
 }
-
+.connection-field:focus {
+  color: #2196f3;
+  border: #2196f3;
+}
 /*--------------------------------------------------------------*/
 
 /*СЕКЦИЯ КНОПОК В ПОРТФОЛИО*/
