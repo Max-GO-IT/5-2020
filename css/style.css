@@ -586,13 +586,6 @@ button:focus {
   padding-top: 40px;
 }
 
-.connection-field {
-  padding-left: 42px;
-  width: 370px;
-  height: 40px;
-  border-radius: 4px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-}
 .form-field {
   position: relative;
   width: 370px;
@@ -611,7 +604,7 @@ button:focus {
   letter-spacing: 0.01em;
   color: #757575;
 }
-.modal-icon-1 {
+.modal-icon {
   position: absolute;
   top: 0;
   left: 0;
@@ -619,24 +612,6 @@ button:focus {
   margin-top: 14px;
   width: 12px;
   height: 12px;
-}
-.modal-icon-2 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-left: 18px;
-  margin-top: 13px;
-  width: 13px;
-  height: 13px;
-}
-.modal-icon-3 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-left: 18px;
-  margin-top: 14px;
-  width: 15px;
-  height: 13px;
 }
 .div-textarea {
   position: relative;
@@ -696,9 +671,15 @@ button:focus {
   letter-spacing: 0.06em;
   color: #ffffff;
 }
+.connection-field {
+  padding-left: 42px;
+  width: 370px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+}
 .connection-field:focus {
   color: #2196f3;
-  border: #2196f3;
 }
 /*--------------------------------------------------------------*/
 
