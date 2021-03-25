@@ -682,6 +682,10 @@ button:focus {
   color: #757575;
   transform: translateY(50%);
 }
+.checkbox-div {
+  margin-left: 40px;
+  margin-top: 20px;
+}
 .connection-field:focus + .label,
 .connection-field:not(:placeholder-shown) + .label {
   color: #2196f3;
