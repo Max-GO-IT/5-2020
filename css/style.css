@@ -191,6 +191,7 @@ img {
 
 .hero-button {
   position: relative;
+  height: 50px;
   color: #ffffff;
   font-weight: bold;
   font-family: Roboto, sans-serif;
