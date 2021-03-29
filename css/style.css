@@ -686,6 +686,13 @@ button:focus {
   margin-left: 40px;
   margin-top: 20px;
 }
+.checkbox-icon {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  background-color: #2196f3;
+}
+
 .connection-field:focus + .label,
 .connection-field:not(:placeholder-shown) + .label {
   color: #2196f3;
