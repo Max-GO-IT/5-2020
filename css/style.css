@@ -682,15 +682,33 @@ button:focus {
   color: #757575;
   transform: translateY(50%);
 }
-.checkbox-div {
+.checkbox-label {
+  display: flex;
+  align-items: center;
   margin-left: 40px;
   margin-top: 20px;
+}
+.checkbox {
+  position: absolute;
+  appearance: none;
 }
 .checkbox-icon {
   display: inline-block;
   width: 16px;
   height: 15px;
+  border: 1px solid #212121;
+  border-radius: 2px;
+}
+.agree {
+  margin-left: 8px;
+}
+
+.checkbox:checked + .checkbox-icon {
   background-color: #2196f3;
+  background-image: url();
+  background-size: contain;
+  background-origin: border-box;
+  border-color: #2196f3;
 }
 
 .connection-field:focus + .label,
